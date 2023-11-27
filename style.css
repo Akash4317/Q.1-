@@ -1,0 +1,66 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: "Open-sans", sans-serif;
+}
+
+.main {
+    height: 400px;
+    width: min-content background-color: wheat;
+    background-image: url(https://www.imageshine.in/uploads/gallery/Free-vector-blue-curve-frame-template-Wallpaper.jpg);
+}
+
+.now {
+    height: 400px;
+    width: 50%;
+    background-color: black;
+}
+
+#register {
+    background-color: rgb(58, 58, 227);
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+#learn {
+    padding: 5px;
+    border-color: blue;
+    margin: 5px;
+}
+
+.sponsored {
+    height: 100px;
+    width: 90%;
+    background-color: white;
+    text-align: center;
+    margin-left: 6%;
+}
+
+.across {
+    margin-top: 150px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.ending {
+    height: 150px;
+    width: 100%;
+    background-color: #e9dcdc;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    color: white;
+}
